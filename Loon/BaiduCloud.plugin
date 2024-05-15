@@ -19,7 +19,9 @@ DOMAIN-SUFFIX,afd.baidu.com,REJECT-NO-DROP
 ^https?:\/\/pan\.baidu\.com\/act\/v\d\/(bchannel|welfare)\/list reject-200
 ^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad reject-200
 ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry reject-200
+^https:\/\/staticsns\.cdn\.bcebos\.com\/amis\/2024-5 reject-200
+
 
 
 [Mitm]
-hostname = pan.baidu.com
+hostname = pan.baidu.com,staticsns.cdn.bcebos.com
