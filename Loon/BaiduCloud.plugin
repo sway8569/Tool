@@ -7,12 +7,7 @@
 #!date = 2024年05月15日 19:04:58
 
 [Rule]
-DOMAIN,mobads.baidu.com,REJECT-NO-DROP
-DOMAIN,image.uczzd.cn,REJECT-NO-DROP
-DOMAIN-SUFFIX,tcbox.baidu.com,REJECT-NO-DROP
-DOMAIN-SUFFIX,sofire.baidu.com,REJECT-NO-DROP
-DOMAIN-SUFFIX,hmma.baidu.com,REJECT-NO-DROP
-DOMAIN-SUFFIX,afd.baidu.com,REJECT-NO-DROP
+
 
 [Script]
 
