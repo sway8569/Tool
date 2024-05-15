@@ -4,7 +4,7 @@
 #!author = Sway
 #!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/NeteaseCloudMusic.png
-#!date = 2024-03-23 23:25:49
+#!date = 2024年05月15日 19:26:24
 #!select = 隐藏漫游标签, 是, 否
 #!select = 隐藏动态标签, 是, 否
 #!select = 隐藏推荐标签, 是, 否
@@ -27,7 +27,7 @@
 
 [Script]
 # tab
-http-response ^https?:\/\/(ipv4|interface3?)\.music\.163\.com\/e?api\/link\/home\/framework\/tab script-path = https://raw.githubusercontent.com/sway8569/QuantumultX/master/wyad.js, requires-body = true, binary-body-mode = true, timeout = 20, tag = ne_tab
+http-response ^https?:\/\/(ipv4|interface3?)\.music\.163\.com\/e?api\/link\/home\/framework\/tab script-path = https://raw.githubusercontent.com/sway8569/Tool/main/QuantumultX/wyad.js, requires-body = true, binary-body-mode = true, timeout = 20, tag = ne_tab
 
 
 [Mitm]
