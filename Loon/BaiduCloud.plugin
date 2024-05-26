@@ -4,7 +4,7 @@
 #!author = Sway
 #!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/BaiduNetDisk.png
-#!date = 2024年05月15日 19:04:58
+#!date = 
 
 [Rule]
 
@@ -15,9 +15,9 @@
 ^https?:\/\/pan\.baidu\.com\/act\/v\d\/(bchannel|welfare)\/list reject-200
 ^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad reject-200
 ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry reject-200
-^https:\/\/staticsns\.cdn\.bcebos\.com\/amis\/2024-5 reject-200
+^https?:\/\/sdk\.1rtb\.net\/sdk\/req_ad url reject-200
 
 
 
 [Mitm]
-hostname = pan.baidu.com,staticsns.cdn.bcebos.com
+hostname = pan.baidu.com,sdk.1rtb.net
