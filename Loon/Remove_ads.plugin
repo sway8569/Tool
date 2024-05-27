@@ -1,0 +1,24 @@
+#!name = 自用广告过滤器
+#!desc = 自用广告过滤器
+#!openUrl = 
+#!author = Sway
+#!homepage = 
+#!icon = 
+#!date = 2024-05-27 20:55:06
+
+[Rule]
+
+[Rewrite]
+# 返利
+^https?:\/\/l[0-9]{1}\.51fanli\.net\/app\/images\/splash\/2024\/0[0-9]{1}\/.*.jpg reject-200
+^https?:\/\/l[0-9]{1}\.51fanli\.net\/app\/images\/splash\/2024\/0[0-9]{1}\/.*.jpeg reject-200
+^https?:\/\/l[0-9]{1}\.51fanli\.net\/app\/images\/splash\/2024\/0[0-9]{1}\/.*.png reject-200
+
+[Script]
+# 12306
+http-response ^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList script-path = https://github.com/ddgksf2013/Scripts/raw/master/12306.js, requires-body = true, tag = 12306去广告
+# 粉笔
+http-response ^https:\/\/tiku\.fenbi\.com\/activity\/app\/launcher\? script-path = https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/fenbi.js, requires-body = true, tag = 粉笔去广告
+
+[Mitm]
+hostname = ad.12306.cn, l*.51fanli.net, tiku.fenbi.com
