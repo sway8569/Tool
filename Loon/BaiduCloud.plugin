@@ -10,8 +10,8 @@
 
 
 [Script]
-http-response https:\/\/pan\.baidu\.com\/api\/getsyscfg\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduCloud.js,requires-body=true,script-update-interval=0,tag=BaiduCloud
-http-response https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduCloud.js,requires-body=true,script-update-interval=0,tag=BaiduCloud
+http-response ^https:\/\/pan\.baidu\.com\/api\/getsyscfg\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduCloud.js,requires-body=true,script-update-interval=0,tag=BaiduCloud
+http-response ^https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduCloud.js,requires-body=true,script-update-interval=0,tag=BaiduCloud
 
 [Rewrite]
 ^https:\/\/pan\.baidu\.com\/(act\/api\/activityentry|act\/v2\/|rest\/2\.0\/pcs\/ad) url reject-dict
