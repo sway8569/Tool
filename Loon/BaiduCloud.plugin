@@ -1,7 +1,7 @@
 #!name = 百度网盘去广告
 #!desc = 过滤百度网盘广告
 #!openUrl = 
-#!author = Sway
+#!author = RuCu6
 #!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/BaiduNetDisk.png
 #!date = 
@@ -10,14 +10,12 @@
 
 
 [Script]
+http-response https:\/\/pan\.baidu\.com\/api\/getsyscfg\? script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduCloud.js,requires-body=true,script-update-interval=0,tag=BaiduCloud
+http-response https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduCloud.js,requires-body=true,script-update-interval=0,tag=BaiduCloud
 
 [Rewrite]
-^https?:\/\/pan\.baidu\.com\/act\/v\d\/(bchannel|welfare)\/list reject-200
-^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad reject-200
-^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry reject-200
-^https?:\/\/sdk\.1rtb\.net\/sdk\/req_ad url reject-200
-
+^https:\/\/pan\.baidu\.com\/(act\/api\/activityentry|act\/v2\/|rest\/2\.0\/pcs\/ad) url reject-dict
 
 
 [Mitm]
-hostname = pan.baidu.com,sdk.1rtb.net
+hostname = pan.baidu.com
