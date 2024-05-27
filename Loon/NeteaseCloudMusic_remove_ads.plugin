@@ -2,7 +2,7 @@
 #!desc = 过滤网易云音乐广告，并允许自定义界面。
 #!openUrl = 
 #!author = Sway
-#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
+#!homepage = https://raw.githubusercontent.com/sway8569/Tool/main/Loon/NeteaseCloudMusic_remove_ads.plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/NeteaseCloudMusic.png
 #!date = 2024年05月15日 19:26:24
 #!select = 隐藏漫游标签, 是, 否
