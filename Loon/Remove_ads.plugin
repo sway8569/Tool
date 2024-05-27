@@ -3,7 +3,7 @@
 #!openUrl = 
 #!author = Sway
 #!homepage = https://raw.githubusercontent.com/sway8569/Tool/main/Loon/Remove_ads.plugin
-#!icon = 
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/Other_icon/120px/RemoveAds.png
 #!date = 2024-05-27 20:55:06
 
 [Rule]
