@@ -5,3 +5,15 @@ host-suffix, beizi.biz, reject
 host-suffix, tcbox.baidu.com, reject
 host-suffix, conf.hpplay.cn, reject
 host-suffix, sp1.baidu.com, reject
+
+host-suffix, pangolin-sdk-toutiao-b.com, reject
+host-suffix, mssdk.bytedance.com, reject
+host, ads5-normal-hl.zijieapi.com, reject
+host-suffix, pangolin-sdk-toutiao1.com, reject
+host-suffix, pangolin-sdk-toutiao.com, reject
+host-suffix, pglstatp-toutiao.com, reject
+host-suffix, abtest-ch.snssdk.com, reject
+host-suffix, mon.zijieapi.com, reject
+host-suffix, mon.snssdk.com, reject
+host-suffix, dig.bdurl.net, reject
+host-suffix, dig.zjurl.cn, reject
