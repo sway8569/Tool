@@ -1,0 +1,19 @@
+DOMAIN-SUFFIX, sofire.baidu.com, reject
+DOMAIN-SUFFIX, list.z.qingting.fm, reject
+DOMAIN-SUFFIX, pglstatp-toutiao.com, reject
+DOMAIN-SUFFIX, beizi.biz, reject
+DOMAIN-SUFFIX, tcbox.baidu.com, reject
+DOMAIN-SUFFIX, conf.hpplay.cn, reject
+DOMAIN-SUFFIX, sp1.baidu.com, reject
+
+DOMAIN-SUFFIX, pangolin-sdk-toutiao-b.com, reject
+DOMAIN-SUFFIX, mssdk.bytedance.com, reject
+DOMAIN, ads5-normal-hl.zijieapi.com, reject
+DOMAIN-SUFFIX, pangolin-sdk-toutiao1.com, reject
+DOMAIN-SUFFIX, pangolin-sdk-toutiao.com, reject
+DOMAIN-SUFFIX, pglstatp-toutiao.com, reject
+DOMAIN-SUFFIX, abtest-ch.snssdk.com, reject
+DOMAIN-SUFFIX, mon.zijieapi.com, reject
+DOMAIN-SUFFIX, mon.snssdk.com, reject
+DOMAIN-SUFFIX, dig.bdurl.net, reject
+DOMAIN-SUFFIX, dig.zjurl.cn, reject
