@@ -17,3 +17,18 @@ host-suffix, mon.zijieapi.com, reject
 host-suffix, mon.snssdk.com, reject
 host-suffix, dig.bdurl.net, reject
 host-suffix, dig.zjurl.cn, reject
+
+host-suffix, ocsp.godaddy.com, reject
+host-suffix, creative.myavlive.com, reject
+host-suffix, rmhfrtnd.com, reject
+host-suffix, cloudflareinsights.com, reject
+host-suffix, magsrv.com, reject
+host-suffix, pagead2.googlesyndication.com, reject
+host-suffix, s0.2mdn.net, reject
+host-suffix, doubleclick.net, reject
+host-suffix, shukriya90.com, reject
+host-suffix, mnaspm.com, reject
+host-suffix, magsrv.com, reject
+host-suffix, tsyndicate.com, reject
+host-suffix, googletagmanager.com, reject
+host-suffix, metrics.icloud.com, reject
