@@ -17,3 +17,18 @@ DOMAIN-SUFFIX, mon.zijieapi.com, reject
 DOMAIN-SUFFIX, mon.snssdk.com, reject
 DOMAIN-SUFFIX, dig.bdurl.net, reject
 DOMAIN-SUFFIX, dig.zjurl.cn, reject
+
+DOMAIN-SUFFIX, ocsp.godaddy.com, reject
+DOMAIN-SUFFIX, creative.myavlive.com, reject
+DOMAIN-SUFFIX, rmhfrtnd.com, reject
+DOMAIN-SUFFIX, cloudflareinsights.com, reject
+DOMAIN-SUFFIX, magsrv.com, reject
+DOMAIN-SUFFIX, pagead2.googlesyndication.com, reject
+DOMAIN-SUFFIX, s0.2mdn.net, reject
+DOMAIN-SUFFIX, doubleclick.net, reject
+DOMAIN-SUFFIX, shukriya90.com, reject
+DOMAIN-SUFFIX, mnaspm.com, reject
+DOMAIN-SUFFIX, magsrv.com, reject
+DOMAIN-SUFFIX, tsyndicate.com, reject
+DOMAIN-SUFFIX, googletagmanager.com, reject
+DOMAIN-SUFFIX, metrics.icloud.com, reject
