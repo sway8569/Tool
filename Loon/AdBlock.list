@@ -32,3 +32,7 @@ DOMAIN-SUFFIX, magsrv.com, reject
 DOMAIN-SUFFIX, tsyndicate.com, reject
 DOMAIN-SUFFIX, googletagmanager.com, reject
 DOMAIN-SUFFIX, metrics.icloud.com, reject
+#网易邮箱
+DOMAIN-SUFFIX, 360buyimg.com, reject
+DOMAIN, mail-activity.nosdn.127.net, reject
+
