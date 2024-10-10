@@ -18,7 +18,7 @@ http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index\? script-path = 
 
 # 精简我的页面
 http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/account\/(mine\?|mine\/ipad\?) script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Bilibili/Bilibili_remove_ads.js, requires-body = true, tag = 精简我的页面
-
+#
 
 [MitM]
 hostname = app.bilibili.com
