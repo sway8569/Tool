@@ -15,7 +15,7 @@ IP-CIDR6, 2402:db40:5100:1011::5/128, REJECT, no-resolve
 ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend[06]) reject-dict
 
 [Script]
-http-response ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome) script-path = https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/jingdong.js, requires-body = true, tag = 移除京东广告
+http-response ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome) script-path = https://raw.githubusercontent.com/luestr/ProxyResource/main/Resource/Script/JD/JD_remove_ads.js, requires-body = true, tag = 移除京东广告
 
 [Mitm]
 hostname = api.m.jd.com
