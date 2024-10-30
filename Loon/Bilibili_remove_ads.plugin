@@ -19,7 +19,8 @@ http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index(\/story)?\? scri
 # 精简我的页面
 http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/account\/(mine\?|mine\/ipad\?) script-path=https://kelee.one/Resource/Script/Bilibili/Bilibili_remove_ads.js, requires-body=true, tag=精简我的页面
 
-
+# 移除开屏广告
+http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/(?:brand\/list|event\/list2|list|show) script-path=https://kelee.one/Resource/Script/Bilibili/Bilibili_remove_ads.js, requires-body=true, tag=移除开屏广告
 
 [MitM]
 hostname = app.bilibili.com
