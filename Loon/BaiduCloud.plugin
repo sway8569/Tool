@@ -100,8 +100,7 @@ DOMAIN-SUFFIX, union.baidu.com, REJECT
 ^https?:\/\/180\.76\.76\.200\/v\d\/resolve reject
 ^https?:\/\/180\.76\.76\.112\/v\d\/resolve reject
 # 应用配置
-
-^https:\/\/pan\.baidu\.com\/api\/getsyscfg reject-dict
+^https:\/\/pan\.baidu\.com\/api\/getconfig reject-dict
 # 签到任务配置
 ^https:\/\/pan\.baidu\.com\/api\/taskscore\/tasklist reject-dict
 # 弹窗配置
